@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111; /* Preto mais claro no fundo */
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, section {
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.left-section, .right-section {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #222; /* Cor mais forte ao redor dos tópicos */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Bordas suaves */
+}
+
+h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #3498db; /* Azul pastel */
+    text-decoration: none;
+    font-weight: bold;
+}
