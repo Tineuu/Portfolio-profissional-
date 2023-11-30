@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111; /* Preto mais claro no fundo */
+    background-color: #111;
     color: #fff;
 }
 
@@ -25,10 +25,10 @@ header h1 {
     width: 48%;
     display: inline-block;
     vertical-align: top;
-    background-color: #222; /* Cor mais forte ao redor dos tópicos */
+    background-color: #222; 
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Bordas suaves */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 h2 {
@@ -47,7 +47,7 @@ ul li {
 }
 
 a {
-    color: #3498db; /* Azul pastel */
+    color: #3498db;
     text-decoration: none;
     font-weight: bold;
 }
